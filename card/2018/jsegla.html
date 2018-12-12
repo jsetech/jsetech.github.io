@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--
+  Peter O'Shaughnessy
+  December 2010.
+  Please email me with any queries: peter.oshaughnessy@gmail.com
+-->
+<html manifest="cache.manifest">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta charset="utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merry Xmas!</title>
+    <link href="css/screen.css" rel="stylesheet" type="text/css"/>
+    <link rel="apple-touch-icon" href="./CTree.png" /> <!--images/ios-home-icon.png-->
+
+    <!-- From Seb Lee-Delisle and mr. doob -->
+    <script src="js/Three.js" type="text/javascript"></script>
+    <script src="js/Snow.js" type="text/javascript"></script>
+
+    <script src="js/jquery-1.4.4.min.js" type="text/javascript"></script>
+    <script src="js/main.js" type="text/javascript"></script>
+  </head>
+  <body>
+
+    <div id="card">
+
+      <section id="frontpage">
+	
+	      <p class="logointro">A Christmas card for...</p>
+	      <h1>Ate</h1>
+	      
+	      <canvas id="tree" ></canvas>
+
+      <img src="./CTree.png" id="tree1" style='position:absolute; left:0; margin-left:18%;' width="300" height="300">
+
+        <ul class="instructions">
+	        <li>Please view in Chrome or Safari - desktop or iPad</li>
+	      
+	        <li>Open by clicking, swiping, or pressing <span class="arrow">→</span></li>
+        </ul>
+	      
+      </section>
+      
+      <section id="firstinnerpage">
+      </section>
+      
+      <section id="secondinnerpage">
+	      
+	      <p class="deartelegraph">Hi Ate!!!,</p>
+	      
+	      <h3>Wishing you a very <br/> Merry Christmas<br/>
+          and a joyful New Year</h3>
+	      
+        <div class="audiocontrols">
+          <audio id="song" src="media/Jingle_Bells_Jazzy.mp3" autobuffer="autobuffer" loop="loop"></audio>
+          <a href="#" id="pause">||</a>
+          <a href="#" id="play" class="disabled">&gt;</a>
+          <div class="label">Music controls</div>
+        </div>
+	      
+	<p>Love<span class="signature">Dad Ghie, Mom Jae, Baby Thea, Tita & Tito</span></p>
+	      
+      </section>
+
+    </div>
+
+  </body>
+</html>
+
